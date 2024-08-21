@@ -1,7 +1,7 @@
 # TPLParserJS
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DavyJonesCodes/TPLParserPy/ff1be2e10922593ffe2949b8927ff6696000ecde/assets/logo.png" alt="Logo" height="128px">
+  <img src="https://raw.githubusercontent.com/DavyJonesCodes/TPLParserJS/main/assets/logo.png" alt="Logo" height="128px">
 </p>
 
 <p align="center">
