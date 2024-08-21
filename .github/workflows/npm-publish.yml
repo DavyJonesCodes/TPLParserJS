@@ -16,8 +16,12 @@ jobs:
         with:
           node-version: 20
       - run: npm ci
-      - run: npm install --save-dev @types/commander
       - run: npm run build
+
+      - uses: actions/upload-artifact@v3
+      with:
+        name: app-build
+        path: dist
 
   publish-npm:
     needs: build
@@ -28,6 +32,9 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
+        uses: actions/download-artifact@v3
+        with:
+          name: app-build
       - run: npm ci
       - run: npm publish
         env:
