@@ -41,7 +41,6 @@
   },
   "dependencies": {
     "commander": "^12.1.0",
-    "python-struct": "^1.1.3",
-    "tpl-parser": "file:"
+    "python-struct": "^1.1.3"
   }
 }
