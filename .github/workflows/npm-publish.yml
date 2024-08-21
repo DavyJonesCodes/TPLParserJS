@@ -16,6 +16,7 @@ jobs:
         with:
           node-version: 20
       - run: npm ci
+      - run: npm install --save-dev @types/commander
       - run: npm run build
 
   publish-npm:
