@@ -9,7 +9,7 @@
     "tpl-parser": "./dist/cli.js"
   },
   "scripts": {
-    "build": "tsup"
+    "build": "tsup --config tsup.config.ts"
   },
   "repository": {
     "type": "git",

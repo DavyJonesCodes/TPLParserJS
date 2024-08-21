@@ -131,4 +131,3 @@ dist
 
 # Extra
 tsconfig.json
-tsup.config.ts
